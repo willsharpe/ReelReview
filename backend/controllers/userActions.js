@@ -4,13 +4,14 @@ import Movie from "../models/movies.js";
 
  const addToWatchlist=async(req,res)=>{
     try{
+        console.log("HERE");
         const user=await User.findById(req.user.id);
         if(!user){
             return res.status(400).json({
                 message:"You're not logged in!"
             });
         }
-        const movie=await Movie.findById(req.params.movie_id);
+        const movie=await Movie.findOne({tmdbID:req.params.movie_id});
         if(!movie){
             return res.status(404).json({
                 message:"Movie not found"
