@@ -24,19 +24,45 @@ Backend: Node.JS, Express, MongoDB, JWT, Mongoose
 Deployment: Vercel, Render
 
 
+Future Improvements
+
+* Integrate OAuth login with Google
+* Add AI-powered review summarization
+* Add more social features like following, and friends
+
+
+
 Setup & Installation
 
 **1. Clone the repository:**
 ```bash
 git clone https://github.com/yourusername/reelreview.git
 cd reelreview
+```
 
+**2. Install dependencies:**
+```bash
 npm install
+```
 
+**3. Run the backend server:**
+```bash
 cd server
 npm run dev
+```
 
+**4. Run the frontend:**
+```bash
 cd client
 npm run dev
 ```
+
+**5. Create .env files:**
+```bash
+MONGO_URI=<your connection string>
+JWT_SECRET=<your secret key>
+TMDB_API_KEY=<your API key>
+```
+
+
 
