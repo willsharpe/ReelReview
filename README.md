@@ -1,4 +1,5 @@
 Overview
+
 ReelReview is a full-stack web application that allows users to browse, review, and rate movies while managing their personal watchlists.
 It’s built with a secure JWT-based authentication system, optimized REST APIs, and a responsive React front-end for real-time interaction.
 This project was developed to practice full-stack development, improve performance optimization, and learn how to handle authentication, database schema design, and user-driven interactivity at scale.
