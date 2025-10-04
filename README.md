@@ -6,6 +6,7 @@ This project was developed to practice full-stack development, improve performan
 
 
 Features
+
 JWT Authentication for secure login and protected routes
 Movie reviews, likes, and rating system with live updates
 Personal watchlists
@@ -15,9 +16,27 @@ Responsive React UI
 Integration with TMDB API
 
 Tech Stack
+
 Frontend: React, Next.js, TailwindCSS, Axios
 
 Backend: Node.JS, Express, MongoDB, JWT, Mongoose
 
 Deployment: Vercel, Render
+
+
+Setup & Installation
+
+**1. Clone the repository:**
+```bash
+git clone https://github.com/yourusername/reelreview.git
+cd reelreview
+
+npm install
+
+cd server
+npm run dev
+
+cd client
+npm run dev
+```
 
